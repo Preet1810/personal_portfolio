@@ -6,10 +6,10 @@ import { getMenuStyles, headerVariants } from "../../utils/motion";
 import useOutsideAlerter from "../../hooks/useOutsideAlerter";
 import useHeaderShadow from "../../hooks/useHeaderShadow";
 
-const Header = () => {
-  const menuRef = useRef(null);
-  const [menuOpened, setMenuOpened] = useState(false);
-  const headerShadow = useHeaderShadow();
+const Header=() => {
+  const menuRef=useRef(null);
+  const [menuOpened, setMenuOpened]=useState(false);
+  const headerShadow=useHeaderShadow();
 
   //to handle click outside of sidebar on mobile
   useOutsideAlerter({
@@ -24,10 +24,13 @@ const Header = () => {
       whileInView="show"
       className={`bg-primary paddings ${css.wrapper}`}
       viewport={{ once: true, amount: 0.25 }}
-      style={{boxShadow: headerShadow}}
+      style={{ boxShadow: headerShadow }}
     >
       <div className={`innerWidth ${css.container} flexCenter`}>
-        <div className={css.name}>Binjan</div>
+        <div className="app__navbar-logo">
+          <img src="logo.png" alt="Logo" />
+        </div>
+        {/* <div className={css.name}>PREETPAL</div> */}
         <ul
           className={`flexCenter ${css.menu}`}
           ref={menuRef}
@@ -38,7 +41,7 @@ const Header = () => {
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#people">Testimonials</a></li>
           <li className={`flexCenter ${css.phone}`}>
-            <p>+001 (313) 345 678</p>
+            <p>+919870583165</p>
             <BiPhoneCall size={"40px"} />
           </li>
         </ul>

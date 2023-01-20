@@ -7,6 +7,7 @@
         align-items: flex-start;
         gap: 2rem;
         flex-wrap: wrap;
+
         >div {
             flex: 1;
         }
@@ -59,19 +60,20 @@
             @media (max-width: $sm) {
                 text-align: center;
             }
+
             display: flex;
             flex-direction: column;
             gap: 2rem;
 
-            .stats {
-                justify-content: flex-start;
-                gap: 4rem;
+            // .stats {
+            //     justify-content: flex-start;
+            //     gap: 4rem;
 
-                .stat {
-                    flex-direction: column;
-                    justify-content: flex-start;
-                }
-            }
+            //     .stat {
+            //         flex-direction: column;
+            //         justify-content: flex-start;
+            //     }
+            // }
         }
     }
 }

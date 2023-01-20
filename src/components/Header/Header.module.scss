@@ -1,5 +1,23 @@
 @import './../../styles/contants.scss';
 
+// .app__navbar-logo {
+//     display: flex;
+//     justify-content: flex-start;
+//     align-items: center;
+
+// }
+
+// .app__navbar-logo img {
+//     width: xxl;
+//     height: xxl;
+//     background-color: aqua;
+
+//     @media screen and (min-width: 2000px) {
+//         width: xxl;
+//         height: xxl;
+//     }
+// }
+
 .wrapper {
     position: relative;
     z-index: 99;
@@ -9,10 +27,14 @@
     top: 0px;
     transition: all 300ms ease;
 
+
+
     .container {
         position: relative;
         justify-content: space-between;
         font-weight: 500;
+
+
 
         .name {
             font-size: 1.5rem;
@@ -86,5 +108,7 @@
 
             display: none;
         }
+
+
     }
 }
