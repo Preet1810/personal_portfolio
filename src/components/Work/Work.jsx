@@ -5,23 +5,24 @@ import css from "./Work.module.scss";
 import { motion } from 'framer-motion'
 import { draw, fadeIn, slideIn, staggerChildren, textVariant2, zoomIn } from "../../utils/motion";
 const Work=() => {
+
+  const [activeTab, setActiveTab]=useState('Education');
   const [showExperience, setShowExperience]=useState(false);
   const [showEducation, setShowEducation]=useState(true);
   const handleExperienceClick=() => {
+    setActiveTab('Experience');
     setShowExperience(true);
     setShowEducation(false);
   }
 
   const handleEducationClick=() => {
+    setActiveTab('Education');
     setShowEducation(true);
     setShowExperience(false);
   }
   return (
     <div>
-      <div className={`flexCenter ${css.exp_btns}`}>
-        <button className={showEducation? 'css.active':''} onClick={handleEducationClick}>Education</button>
-        <button className={showExperience? 'css.active':''} onClick={handleExperienceClick}>Experience</button>
-      </div>
+
       {showExperience&&<div>
         <motion.section
           variants={staggerChildren}
@@ -33,6 +34,10 @@ const Work=() => {
 
           <div className={`innerWidth flexCenter ${css.container}`}>
             {/* heading */}
+            <div className={`flexCenter ${css.exp_btns}`}>
+              <button onClick={handleEducationClick} className={activeTab==='Education'? `${css.active}`:''}>Education</button>
+              <button onClick={handleExperienceClick} className={activeTab==='Experience'? `${css.active}`:''}>Experience</button>
+            </div>
             <span className="primaryText yPaddings">My Work Experience</span>
 
             <div className={`flexCenter ${css.experiences}`}>
@@ -74,6 +79,10 @@ const Work=() => {
 
           <div className={`innerWidth flexCenter ${css.container}`}>
             {/* heading */}
+            <div className={`flexCenter ${css.exp_btns}`}>
+              <button onClick={handleEducationClick} className={activeTab==='Education'? `${css.active}`:''} >Education</button>
+              <button onClick={handleExperienceClick} className={activeTab==='Experience'? `${css.active}`:''}>Experience</button>
+            </div>
             <span className="primaryText yPaddings">My Education</span>
 
             <div className={`flexCenter ${css.experiences}`}>

@@ -24,7 +24,7 @@ const Footer=() => {
             amazing together.
           </span>
           <span className="primaryText">
-            Start by <a href="mailto:zainkeepscode@gmail.com">saying hi</a>
+            Start by <a href="mailto:preetpalsingh1239@gmail.com">saying hi</a>
           </span>
         </div>
 
@@ -34,10 +34,10 @@ const Footer=() => {
             {/* <p>145 New York, FL 5467, USA</p> */}
           </div>
           <ul className={css.menu}>
-            <li>Services</li>
-            <li>Works</li>
-            <li>Notes</li>
-            <li>Experience</li>
+            <li><a href="#experties">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#work">Experience</a></li>
+            <li><a href="#people">Testimonials</a></li>
           </ul>
         </div>
 

@@ -54,8 +54,10 @@
                 gap: 2rem;
                 list-style: none;
 
-                li {
+                li a {
                     cursor: pointer;
+                    text-decoration: none;
+                    color: $primary;
 
                     &:hover {
                         color: $secondary
