@@ -1,35 +1,9 @@
 import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { CiMobile1 } from "react-icons/ci";
 import { SiSpeedtest } from 'react-icons/si';
-import {
-  instagram,
-  linkedin,
-  twitter,
-  github
-} from "../assets"
 
-export const socialMedia=[
-  {
-    id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/",
-  },
-  {
-    id: "social-media-2",
-    icon: github,
-    link: "https://www.facebook.com/",
-  },
-  {
-    id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
-  },
-  {
-    id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
-  },
-];
+
+
 
 export const projectExperience=[
   {
@@ -91,7 +65,7 @@ export const eduExp=[
       "Mamta Modern Sr. Sec School as one of the premier educational institution, aspireto develop young minds to be prepared for the challenges of a dynamic world, to make them compassionate individuals, and to motivate them to effect meaningful changes.",
   },
   {
-    place: "Networking Administrator Diploma",
+    place: "Network Administrator Diploma",
     tenure: "Aug 2014 - Sep 2016",
     role: "Jetking Vikaspuri Learning Centre",
     detail:

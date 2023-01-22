@@ -38,7 +38,7 @@ const Work=() => {
               <button onClick={handleEducationClick} className={activeTab==='Education'? `${css.active}`:''}>Education</button>
               <button onClick={handleExperienceClick} className={activeTab==='Experience'? `${css.active}`:''}>Experience</button>
             </div>
-            <span className="primaryText yPaddings">My Work Experience</span>
+            <span className="primaryText yPaddings">Work Experience</span>
 
             <div className={`flexCenter ${css.experiences}`}>
 
@@ -83,7 +83,7 @@ const Work=() => {
               <button onClick={handleEducationClick} className={activeTab==='Education'? `${css.active}`:''} >Education</button>
               <button onClick={handleExperienceClick} className={activeTab==='Experience'? `${css.active}`:''}>Experience</button>
             </div>
-            <span className="primaryText yPaddings">My Education</span>
+            <span className="primaryText yPaddings">Education</span>
 
             <div className={`flexCenter ${css.experiences}`}>
               {eduExp.map((exp, i) => {

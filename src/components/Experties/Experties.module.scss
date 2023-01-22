@@ -17,6 +17,10 @@
             flex-direction: column;
             gap: 2rem;
 
+            .desc {
+                line-height: 35px;
+            }
+
             .exp {
                 display: flex;
                 align-items: center;
