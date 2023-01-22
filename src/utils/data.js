@@ -1,7 +1,6 @@
 import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { CiMobile1 } from "react-icons/ci";
 import { SiSpeedtest } from 'react-icons/si';
-import { MdWorkspacesOutline } from "react-icons/md";
 import {
   instagram,
   linkedin,
@@ -109,10 +108,10 @@ export const eduExp=[
 
 export const comments=[
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Parvinder Singh",
+    post: "Confectionery store Owner",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "I highly recommend Preetpal singh for their exceptional work creating a landing page for my confectionery store. The page is modern, visually appealing, and effectively showcases our products.",
     img: "./people2.png",
   },
   {

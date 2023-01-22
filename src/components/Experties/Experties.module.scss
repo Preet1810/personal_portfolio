@@ -51,6 +51,10 @@
 
                     }
                 }
+
+                @media (max-width: $sm) {
+                    font-size: 1rem;
+                }
             }
         }
 

@@ -2,30 +2,29 @@ import React from "react";
 import { comments, sliderSettings } from "../../utils/data";
 import css from "./People.module.scss";
 import Slider from "react-slick";
-import {motion} from 'framer-motion'
+import { motion } from 'framer-motion'
 import { footerVariants, staggerChildren, textVariant, textVariant2 } from "../../utils/motion";
-const People = () => {
+const People=() => {
   return (
     <motion.section
-    variants={staggerChildren}
-    initial="hidden"
-    whileInView="show"
-    viewport={{ once: false, amount: 0.25 }}
-    section className={`paddings ${css.wrapper}`}>
+      variants={staggerChildren}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.25 }}
+      section className={`paddings ${css.wrapper}`}>
 
       <a className="anchor" id="people"></a>
 
       <motion.div
-      variants={footerVariants}
-      className={`yPaddings innerWidth ${css.container}`}>
+        variants={footerVariants}
+        className={`yPaddings innerWidth ${css.container}`}>
 
 
         <div className={`flexCenter ${css.heading}`}>
           <span className="primaryText">People talk about us</span>
-          <p style={{ marginTop: "2rem" }}>
-            I got a job that was in accordance with the salary and field of work
-          </p>
-          <p>The process of submitting an appilication was quite cosy</p>
+          <p style={{ marginTop: "2rem" }}>Discover what my clients have to say about my work in the testimonials section of my portfolio.</p>
+          <p>These recommendations showcase my skills, experience and expertise in the field.</p>
+          <p>Thank you for taking the time to read them.</p>
         </div>
 
 

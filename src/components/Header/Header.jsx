@@ -27,8 +27,8 @@ const Header=() => {
       style={{ boxShadow: headerShadow }}
     >
       <div className={`innerWidth ${css.container} flexCenter`}>
-        <div className="app__navbar-logo">
-          <img src="logo.png" alt="Logo" />
+        <div>
+          <img className={css.logo} src="logo.png" alt="Logo" />
         </div>
         {/* <div className={css.name}>PREETPAL</div> */}
         <ul

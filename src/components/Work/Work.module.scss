@@ -67,12 +67,25 @@
                 line-height: 40px;
                 align-items: flex-start;
 
+                h1 {
+                    @media (max-width:$sm) {
+                        margin-bottom: 0.5rem;
+                        line-height: 25px;
+                    }
+                }
+
                 >div {
                     flex: 1;
                 }
 
                 .role {
                     margin-left: 2rem;
+
+                    p {
+                        @media (max-width:$sm) {
+                            line-height: 25px;
+                        }
+                    }
                 }
             }
 
