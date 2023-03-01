@@ -1,5 +1,45 @@
 @import '../../styles/contants.scss';
 
+.top_btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 4rem 0 0rem;
+    margin-top: -2rem;
+
+    // .active {
+    //     background-color: $primary;
+    // }
+    .active {
+        color: #fff;
+        background-color: $primary;
+    }
+
+    button {
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        background-color: transparent;
+        color: $primary;
+        font-weight: 800;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        margin: 0.5rem;
+
+        &:hover {
+            background-color: $primary;
+            color: #fff;
+        }
+
+        @media screen and (min-width: 2000px) {
+            padding: 1rem 2rem;
+            border-radius: 0.85rem;
+        }
+    }
+}
+
+
 .wrapper {
     background: white;
     overflow: hidden;

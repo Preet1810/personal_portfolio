@@ -59,21 +59,21 @@ export const workExp=[
 export const eduExp=[
   {
     place: "Secondary Schooling",
-    tenure: "Aug 2014 - Sep 2016",
+    tenure: "2019",
     role: "Mamta Modern Sr. Sec. School",
     detail:
       "Mamta Modern Sr. Sec School as one of the premier educational institution, aspireto develop young minds to be prepared for the challenges of a dynamic world, to make them compassionate individuals, and to motivate them to effect meaningful changes.",
   },
   {
     place: "Network Administrator Diploma",
-    tenure: "Aug 2014 - Sep 2016",
+    tenure: "2019 - 2021",
     role: "Jetking Vikaspuri Learning Centre",
     detail:
       "Jetking has been at the forefront of technological innovation in terms of education since 1947. To help students and prospective engineers capitalize on this technological boom,",
   },
   {
     place: "Bachelors's in Computer Application",
-    tenure: "Aug 2014 - Sep 2016",
+    tenure: "2021 - Present",
     role: "Indira Gandhi National Open University",
     detail:
       "Indira Gandhi National Open University (IGNOU), the world’s largest Open University, was established by an Act of Parliament in 1985",
@@ -86,63 +86,21 @@ export const comments=[
     post: "Confectionery store Owner",
     comment:
       "I highly recommend Preetpal singh for their exceptional work creating a landing page for my confectionery store. The page is modern, visually appealing, and effectively showcases our products.",
-    img: "./people2.png",
+    img: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1677644534/portfolio/cakepointowner_egq2lf.png",
+  },
+  {
+    name: "Swadha Pahuja",
+    post: "CMA Student",
+    comment:
+      "Working with Preetpal Singh to create my portfolio website was a pleasure. His exceptional talent in web development resulted in a modern and interactive page that stood out from the competition. I highly recommend Preetpal to anyone in need of a skilled and reliable web developer.",
+    img: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1677644540/portfolio/swadha_ecyh2f.png",
   },
   {
     name: "Anamika Sandula",
     post: "Creative Manager",
     comment:
       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+    img: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1677644534/portfolio/cakepointowner_egq2lf.png",
   },
 ];
 
@@ -186,29 +144,63 @@ export const sliderSettings={
 
 export const imageSources=[
   {
-    loc: "./hoobank.png",
-    alt: '3',
-    href: "https://devhoobank.netlify.app/"
+    loc: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1677644540/portfolio/social_b9bua4.png",
+    alt: 'Memories App',
+    href: "https://memories-social-mediaa.netlify.app",
+    tag: "ALL,FULLSTACK"
+  }, {
+    loc: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1677645164/portfolio/Home_pmzunf.png",
+    alt: 'MERN dashboard',
+    href: "https://admindashboard66.netlify.app",
+    tag: "ALL,FULLSTACK"
   },
   {
-    loc: "./gericht.png",
-    alt: '3',
-    href: "https://restaurantgericht1.netlify.app/"
+    loc: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1677644537/portfolio/aimage_djfubn.png",
+    alt: 'DALL-E-CLONE',
+    href: "https://createaiart.netlify.app",
+    tag: "ALL,FULLSTACK"
+  },
+
+  {
+    loc: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1677644535/portfolio/cakepoint_pqki05.png",
+    alt: 'cakeshop',
+    href: "https://cakepointnet.netlify.app",
+    tag: "ALL,FRONTEND"
+
   },
   {
-    loc: "./gpt3.png",
-    alt: '3',
-    href: "https://gpt3blog.netlify.app/"
+    loc: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1677644536/portfolio/hoobank_jtiljd.png",
+    alt: 'hoobank',
+    href: "https://devhoobank.netlify.app/",
+    tag: "ALL,FRONTEND"
+
   },
   {
-    loc: "/snapbuy.png",
-    alt: '1',
-    href: "https://snapbuy.cyclic.app/"
+    loc: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1677644539/portfolio/gericht_cn1oeu.png",
+    alt: 'restaurent',
+    href: "https://restaurantgericht1.netlify.app/",
+    tag: "ALL,FRONTEND"
+
   },
   {
-    loc: "./yelpcamp.png",
-    alt: '2',
-    href: "http://yelpcamppp.cyclic.app/"
+    loc: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1677644539/portfolio/gpt3_j5vdgf.png",
+    alt: 'blog site',
+    href: "https://gpt3blog.netlify.app/",
+    tag: "ALL,FRONTEND"
+
+  },
+  {
+    loc: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1677645648/portfolio/Untitled_design_14_lpf3vz.png",
+    alt: 'b2b site',
+    href: "https://snapbuy.cyclic.app/",
+    tag: "ALL,FULLSTACK"
+
+  },
+  {
+    loc: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1677645792/portfolio/Untitled_design_15_hcwum8.png",
+    alt: 'yelpcamp',
+    href: "http://yelpcamppp.cyclic.app/",
+    tag: "ALL,FULLSTACK"
   },
 
 ]

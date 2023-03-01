@@ -34,11 +34,13 @@ const Work=() => {
 
           <div className={`innerWidth flexCenter ${css.container}`}>
             {/* heading */}
+            <span className="primaryText yPaddings">Work Experience</span>
+
             <div className={`flexCenter ${css.exp_btns}`}>
               <button onClick={handleEducationClick} className={activeTab==='Education'? `${css.active}`:''}>Education</button>
               <button onClick={handleExperienceClick} className={activeTab==='Experience'? `${css.active}`:''}>Experience</button>
             </div>
-            <span className="primaryText yPaddings">Work Experience</span>
+
 
             <div className={`flexCenter ${css.experiences}`}>
 
@@ -68,6 +70,7 @@ const Work=() => {
             </div>
           </div>
         </motion.section></div>}
+
       {showEducation&&<div>
         <motion.section
           variants={staggerChildren}
@@ -79,12 +82,11 @@ const Work=() => {
 
           <div className={`innerWidth flexCenter ${css.container}`}>
             {/* heading */}
+            <span className="primaryText yPaddings">Education</span>
             <div className={`flexCenter ${css.exp_btns}`}>
               <button onClick={handleEducationClick} className={activeTab==='Education'? `${css.active}`:''} >Education</button>
               <button onClick={handleExperienceClick} className={activeTab==='Experience'? `${css.active}`:''}>Experience</button>
             </div>
-            <span className="primaryText yPaddings">Education</span>
-
             <div className={`flexCenter ${css.experiences}`}>
               {eduExp.map((exp, i) => {
                 return (

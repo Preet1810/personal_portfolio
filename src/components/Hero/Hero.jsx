@@ -29,7 +29,7 @@ const Hero=() => {
           variants={fadeIn("up", "tween", 0.3, 1)}
           className={css.person}
         >
-          <motion.img variants={slideIn("up", "tween", 0.5, 1.3)} src="./person.png" alt="" />
+          <motion.img variants={slideIn("up", "tween", 0.5, 1.3)} src="https://res.cloudinary.com/dwh4llt0c/image/upload/v1677644539/portfolio/person_ve9e32.png" alt="" />
         </motion.div>
 
         <a className={css.email} href="mailto:Preetpalsingh1239@gmail.com">
@@ -46,7 +46,7 @@ const Hero=() => {
           </motion.div>
 
           <motion.div variants={fadeIn("left", "tween", 0.5, 1)} className={css.certificate}>
-            <img src="./certificate.png" alt="" />
+            <img src="https://res.cloudinary.com/dwh4llt0c/image/upload/v1677653712/portfolio/certificateweb_rypiov.png" alt="" />
             <span>CERTIFIED PROFESIONAL</span>
             <span>WEB DEVELOPER</span>
           </motion.div>
