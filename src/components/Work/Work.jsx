@@ -6,9 +6,9 @@ import { motion } from 'framer-motion'
 import { draw, fadeIn, slideIn, staggerChildren, textVariant2, zoomIn } from "../../utils/motion";
 const Work=() => {
 
-  const [activeTab, setActiveTab]=useState('Education');
-  const [showExperience, setShowExperience]=useState(false);
-  const [showEducation, setShowEducation]=useState(true);
+  const [activeTab, setActiveTab]=useState('Experience');
+  const [showExperience, setShowExperience]=useState(true);
+  const [showEducation, setShowEducation]=useState(false);
   const handleExperienceClick=() => {
     setActiveTab('Experience');
     setShowExperience(true);

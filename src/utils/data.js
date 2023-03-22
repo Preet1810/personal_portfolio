@@ -62,21 +62,21 @@ export const eduExp=[
     tenure: "2019",
     role: "Mamta Modern Sr. Sec. School",
     detail:
-      "Mamta Modern Sr. Sec School as one of the premier educational institution, aspireto develop young minds to be prepared for the challenges of a dynamic world, to make them compassionate individuals, and to motivate them to effect meaningful changes.",
+      "My experience at Mamta Modern Sr. Sec School was filled with academic and social growth. Opting for humanities in 11th, I scored 87% in 12th boards. The curriculum challenged me to think critically, while forging lasting connections with my peers. This experience has given me the confidence to pursue my future goals.",
   },
   {
     place: "Network Administrator Diploma",
     tenure: "2019 - 2021",
     role: "Jetking Vikaspuri Learning Centre",
     detail:
-      "Jetking has been at the forefront of technological innovation in terms of education since 1947. To help students and prospective engineers capitalize on this technological boom,",
+      "My diploma in network administration through Jetking has been the backbone of my journey into the tech field. It provided me with a strong foundation and comprehensive knowledge of network administration, enabling me to learn and grow in the field.",
   },
   {
     place: "Bachelors's in Computer Application",
     tenure: "2021 - Present",
     role: "Indira Gandhi National Open University",
     detail:
-      "Indira Gandhi National Open University (IGNOU), the world’s largest Open University, was established by an Act of Parliament in 1985",
+      "As I near the end of my final year of IGNOU BCA graduation, I am filled with gratitude for the invaluable knowledge and experiences I have gained. The program has challenged me to think critically and creatively, and equipped me with the necessary skills to excel in the field of computer applications.",
   },
 ];
 
@@ -99,8 +99,8 @@ export const comments=[
     name: "Anamika Sandula",
     post: "Creative Manager",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1677644534/portfolio/cakepointowner_egq2lf.png",
+      "I hired Preetpal Singh to create a blog website, and he did an excellent job. He was professional, reliable, and went above and beyond to ensure the website met my needs. The final product was visually appealing and user-friendly. I highly recommend Preetpal Singh as a skilled web developer.",
+    img: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1679480545/portfolio/swadha_ar3zx2.png",
   },
 ];
 

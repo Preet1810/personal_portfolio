@@ -21,7 +21,7 @@ const People=() => {
 
 
         <div className={`flexCenter ${css.heading}`}>
-          <span className="primaryText">People talk about us</span>
+          <span className="primaryText">People talk about me</span>
           <p style={{ marginTop: "2rem" }}>Discover what my clients have to say about my work in the testimonials section of my portfolio.</p>
           <p>These recommendations showcase my skills, experience and expertise in the field.</p>
           <p>Thank you for taking the time to read them.</p>
