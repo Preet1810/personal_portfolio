@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import css from "./Portfolio.module.scss";
 import { fadeIn, staggerChildren, textVariant } from "../../utils/motion";
 import { imageSources } from "../../utils/data";
+import { BsGithub } from "react-icons/bs";
+import { BiLinkExternal } from "react-icons/bi";
 
 const Portfolio=() => {
   const [activeTab, setActiveTab]=useState('ALL');
@@ -48,9 +50,20 @@ const Portfolio=() => {
             if (activeTab==='ALL') return true;
             else return src.tag.includes(activeTab);
           }).map((src, index) => (
-            <a href={src.href} key={src.alt} target="_blank">
-              <motion.img variants={fadeIn("up", "tween", (index/10)+.5, .6)} src={src.loc} alt={src.alt} />
-            </a>
+            <div>
+
+              <a href={src.href} key={src.alt} target="_blank">
+                <motion.img variants={fadeIn("up", "tween", (index/10)+.5, .6)} src={src.loc} alt={src.alt} />
+              </a>
+              <motion.div variants={fadeIn("up", "tween", (index/10)+.5, .6)} className={css.overlay}>
+                <a href={src.github} target="_blank" rel="noopener noreferrer">
+                  <BsGithub />
+                </a>
+                <a href={src.href} target="_blank" rel="noopener noreferrer">
+                  <BiLinkExternal />
+                </a>
+              </motion.div>
+            </div>
           ))}
         </div>
       </div>
