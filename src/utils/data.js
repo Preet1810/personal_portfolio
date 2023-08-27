@@ -27,42 +27,43 @@ export const projectExperience=[
 ];
 
 export const WhatDoIHelp=[
-  "As a MERN developer with 2 years of freelancing experience, I have a strong understanding of the technologies used in web development including MongoDB, Express.js, React, and Node.js. ",
+  "As a MERN developer with 2 years of professional experience, I have a strong understanding of the technologies used in web development including NextJs, React, Node.js, Express.js and MongoDB. ",
   "I am able to design and develop full-stack web applications, and I am well-versed in both front-end and back-end development. I also have experience with responsive design, website optimization, and other techniques to create high-performance websites.",
   "I can help you bring your web development projects to life and deliver high-quality and efficient solutions that meets your business needs."
 ];
 
 export const workExp=[
   {
-    place: "Comptronic Solutions",
-    tenure: "Aug 2019 - Dec 2019 ",
-    role: "Customer Care Executive",
+    place: "Brihat Infotech",
+    tenure: "Jul 2022 - Present",
+    role: "Full Stack MERN Developer",
     detail:
-      "I was responsible for handling customer inquiries and complaints, providing information about products and services, resolving customer issues, and ensuring customer satisfaction. ",
+      "In my role as a Full Stack Developer at Brihat Infotech, I am responsible for successfully executing projects within stipulated timelines. My engagement encompasses both backend and frontend development, leveraging a range of technologies to achieve comprehensive solutions.",
   },
   {
     place: "Mobishastra Technologies LLC",
     tenure: "June 2021 - Jan 2022",
     role: "Operations Executive",
     detail:
-      "As an operations executive responsible for managing a small team in Ladnun, Rajasthan. Duties include: training new team members, white box testing, addressing bugs and enhancements,Identifying and addressing operational issues, implementing policies and procedures to improve productivity and performance. Overall goal is to ensure team efficiency and customer satisfaction. ",
+      "As an operations executive responsible for managing a small team in Ladnun, Rajasthan. Duties include: training new team members, white box testing, addressing bugs and enhancements, Identifying and addressing operational issues, implementing policies and procedures to improve productivity and performance. Overall goal is to ensure team efficiency and customer satisfaction. ",
   },
   {
-    place: "Self Employed Freelancer",
-    tenure: "Jan 2022 - Present",
-    role: "Freelancer MERN developer",
+    place: "Comptronic Solutions",
+    tenure: "Aug 2019 - Dec 2019",
+    role: "Customer Care Executive",
     detail:
-      "As a MERN developer with 2 years of freelancing experience, I have a strong understanding of the technologies used in web development including MongoDB, Express.js, React, and Node.js.",
+      "I was responsible for handling customer inquiries and complaints, providing information about products and services, resolving customer issues, and ensuring customer satisfaction.",
   },
 ];
 
+
 export const eduExp=[
   {
-    place: "Secondary Schooling",
-    tenure: "2019",
-    role: "Mamta Modern Sr. Sec. School",
+    place: "Bachelors's in Computer Application",
+    tenure: "2020 - 2023",
+    role: "Indira Gandhi National Open University",
     detail:
-      "My experience at Mamta Modern Sr. Sec School was filled with academic and social growth. Opting for humanities in 11th, I scored 87% in 12th boards. The curriculum challenged me to think critically, while forging lasting connections with my peers. This experience has given me the confidence to pursue my future goals.",
+      "Completing my BCA from IGNOU, New Delhi, propelled me towards excellence. The comprehensive curriculum, expert faculty, and practical approach provided a strong foundation in computer applications. Real-world projects enhanced my problem-solving abilities, while a diverse student community fostered collaborative learning. ",
   },
   {
     place: "Network Administrator Diploma",
@@ -72,13 +73,14 @@ export const eduExp=[
       "My diploma in network administration through Jetking has been the backbone of my journey into the tech field. It provided me with a strong foundation and comprehensive knowledge of network administration, enabling me to learn and grow in the field.",
   },
   {
-    place: "Bachelors's in Computer Application",
-    tenure: "2021 - Present",
-    role: "Indira Gandhi National Open University",
+    place: "Secondary Schooling",
+    tenure: "2019",
+    role: "Mamta Modern Sr. Sec. School",
     detail:
-      "As I near the end of my final year of IGNOU BCA graduation, I am filled with gratitude for the invaluable knowledge and experiences I have gained. The program has challenged me to think critically and creatively, and equipped me with the necessary skills to excel in the field of computer applications.",
+      "My experience at Mamta Modern Sr. Sec School was filled with academic and social growth. Opting for humanities in 11th, I scored 87% in 12th boards. The curriculum challenged me to think critically, while forging lasting connections with my peers. This experience has given me the confidence to pursue my future goals.",
   },
 ];
+
 
 export const comments=[
   {

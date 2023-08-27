@@ -13,15 +13,17 @@ const Hero=() => {
         className={`innerWidth ${css.container}`}
       >
         <div className={css.upperElements}>
-          <motion.span className="primaryText" variants={fadeIn("right", "tween", 0.2, 1)}>
-            Hey There,
+          <motion.span className="" style={{ fontSize: '30px', fontWeight: '700', lineHeight: '1.5' }} variants={fadeIn("right", "tween", 0.2, 1)}>
+            Transforming Concepts into Reality
             <br />
-            I'm Preetpal.
+            Expert Full Stack MERN Developer
+            <br />
+            Preetpal Singh
           </motion.span>
           <motion.span className="secondaryText" variants={fadeIn("left", "tween", 0.4, 1)}>
-            I am proficient in using MongoDB, ExpressJS,
+            I am proficient in using Nextjs, React, NodeJS,
             <br />
-            React, and NodeJS to build web applications.{" "}
+            MongoDB and ExpressJS to build web applications.
           </motion.span>
         </div>
 
