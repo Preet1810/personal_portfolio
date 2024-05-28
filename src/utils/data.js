@@ -34,11 +34,18 @@ export const WhatDoIHelp=[
 
 export const workExp=[
   {
-    place: "Brihat Infotech",
-    tenure: "Jul 2022 - Present",
+    place: "Aqua Global Systems",
+    tenure: "Jul 2023 - Feb 2024",
     role: "Full Stack MERN Developer",
     detail:
-      "In my role as a Full Stack Developer at Brihat Infotech, I am responsible for successfully executing projects within stipulated timelines. My engagement encompasses both backend and frontend development, leveraging a range of technologies to achieve comprehensive solutions.",
+      "In my role as a Full Stack Developer at Aqua Global Systems, I am responsible for successfully executing projects within stipulated timelines. My engagement encompasses both backend and frontend development, leveraging a range of technologies to achieve comprehensive solutions.",
+  },
+  {
+    place: "Brihat Infotech",
+    tenure: "Jul 2023 - Feb 2024",
+    role: "Full Stack MERN Developer",
+    detail:
+      "In my role as a Full Stack Developer at Brihat Infotech, I was responsible for successfully executing projects within stipulated timelines. My engagement encompasses both backend and frontend development, leveraging a range of technologies to achieve comprehensive solutions.",
   },
   {
     place: "Mobishastra Technologies LLC",

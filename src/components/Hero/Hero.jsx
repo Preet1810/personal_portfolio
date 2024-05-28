@@ -2,6 +2,7 @@ import React from "react";
 import { fadeIn, slideIn, staggerContainer } from "../../utils/motion";
 import css from "./Hero.module.scss";
 import { motion } from "framer-motion";
+import mypic from "../../assets/mypic2.png"
 const Hero=() => {
   return (
     <section className={`paddings ${css.wrapper}`}>
@@ -31,7 +32,7 @@ const Hero=() => {
           variants={fadeIn("up", "tween", 0.3, 1)}
           className={css.person}
         >
-          <motion.img variants={slideIn("up", "tween", 0.5, 1.3)} src="https://res.cloudinary.com/dwh4llt0c/image/upload/v1677644539/portfolio/person_ve9e32.png" alt="" />
+          <motion.img variants={slideIn("up", "tween", 0.5, 1.3)} src={mypic} alt="" />
         </motion.div>
 
         <a className={css.email} href="mailto:Preetpalsingh1239@gmail.com">

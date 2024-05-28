@@ -77,13 +77,14 @@
             background-image: url("https://res.cloudinary.com/dwh4llt0c/image/upload/v1677644540/portfolio/splash_k7yfej.png");
             background-repeat: no-repeat;
             background-size: 23rem;
-            left: 33%;
+            left: 38%;
 
             img {
                 @media (max-width: $sm ) {
                     width: 23rem;
                 }
 
+                width: 26rem;
                 margin-bottom: -5px;
             }
         }
