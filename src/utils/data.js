@@ -35,14 +35,14 @@ export const WhatDoIHelp=[
 export const workExp=[
   {
     place: "Aqua Global Systems",
-    tenure: "Jul 2023 - Feb 2024",
+    tenure: "Feb 2024 - Present",
     role: "Full Stack MERN Developer",
     detail:
       "In my role as a Full Stack Developer at Aqua Global Systems, I am responsible for successfully executing projects within stipulated timelines. My engagement encompasses both backend and frontend development, leveraging a range of technologies to achieve comprehensive solutions.",
   },
   {
     place: "Brihat Infotech",
-    tenure: "Jul 2023 - Feb 2024",
+    tenure: "Jul 2023 - Jan 2024",
     role: "Full Stack MERN Developer",
     detail:
       "In my role as a Full Stack Developer at Brihat Infotech, I was responsible for successfully executing projects within stipulated timelines. My engagement encompasses both backend and frontend development, leveraging a range of technologies to achieve comprehensive solutions.",
