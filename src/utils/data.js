@@ -1,7 +1,8 @@
 import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { CiMobile1 } from "react-icons/ci";
 import { SiSpeedtest } from 'react-icons/si';
-
+import edzer from "../assets/edzer.png"
+import aqua from "../assets/aqua.png"
 
 
 
@@ -152,72 +153,90 @@ export const sliderSettings={
 };
 
 export const imageSources=[
+  // {
+  //   loc: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1677644540/portfolio/social_b9bua4.png",
+  //   alt: 'Memories App',
+  //   href: "https://memories-social-mediaa.netlify.app",
+  //   tag: "ALL,FULLSTACK",
+  //   github: "https://github.com/Preet1810/ModernSocialMediaApp"
+  // }, {
+  //   loc: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1677645164/portfolio/Home_pmzunf.png",
+  //   alt: 'MERN dashboard',
+  //   href: "https://admindashboard66.netlify.app",
+  //   tag: "ALL,FULLSTACK",
+  //   github: "https://github.com/Preet1810/Admin_Dashboard"
+  // },
+  // {
+  //   loc: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1683273001/portfolio/Home_1_moihzl.png",
+  //   alt: 'Indian ID OCR Script',
+  //   href: "https://id-ocr-script-preet.netlify.app/",
+  //   tag: "ALL,FULLSTACK",
+  //   github: "https://github.com/Preet1810/PreetpalSingh-ID-OCR-SCRIPT"
+  // },
   {
-    loc: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1677644540/portfolio/social_b9bua4.png",
-    alt: 'Memories App',
-    href: "https://memories-social-mediaa.netlify.app",
+    loc: aqua,
+    alt: 'Aqua Globals Systems',
+    href: "https://www.aquaglobalsystems.com/",
     tag: "ALL,FULLSTACK",
-    github: "https://github.com/Preet1810/ModernSocialMediaApp"
-  }, {
-    loc: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1677645164/portfolio/Home_pmzunf.png",
-    alt: 'MERN dashboard',
-    href: "https://admindashboard66.netlify.app",
-    tag: "ALL,FULLSTACK",
-    github: "https://github.com/Preet1810/Admin_Dashboard"
   },
   {
-    loc: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1683273001/portfolio/Home_1_moihzl.png",
-    alt: 'Indian ID OCR Script',
-    href: "https://id-ocr-script-preet.netlify.app/",
+    loc: edzer,
+    alt: 'Edzer.org',
+    href: "https://Edzer.org",
     tag: "ALL,FULLSTACK",
-    github: "https://github.com/Preet1810/PreetpalSingh-ID-OCR-SCRIPT"
   },
   {
     loc: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1677644535/portfolio/cakepoint_pqki05.png",
     alt: 'cakeshop',
     href: "https://cakepointnet.netlify.app",
     tag: "ALL,FRONTEND",
-    github: "https://github.com/Preet1810/cakepoint"
-
   },
   {
-    loc: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1677644536/portfolio/hoobank_jtiljd.png",
-    alt: 'hoobank',
-    href: "https://devhoobank.netlify.app/",
-    tag: "ALL,FRONTEND",
-    github: "https://github.com/Preet1810/bank_reactApp"
-
-  },
-  {
-    loc: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1677644539/portfolio/gericht_cn1oeu.png",
-    alt: 'restaurent',
-    href: "https://restaurantgericht1.netlify.app/",
-    tag: "ALL,FRONTEND",
-    github: "https://github.com/Preet1810/restaurant_react"
-
-  },
-  {
-    loc: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1677644539/portfolio/gpt3_j5vdgf.png",
-    alt: 'blog site',
-    href: "https://gpt3blog.netlify.app/",
-    tag: "ALL,FRONTEND",
-    github: "https://github.com/Preet1810/gpt_3"
-
-  },
-  {
-    loc: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1677645648/portfolio/Untitled_design_14_lpf3vz.png",
-    alt: 'b2b site',
-    href: "https://snapbuy.cyclic.app/",
+    loc: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1677644540/portfolio/social_b9bua4.png",
+    alt: 'Memories App',
+    href: "https://memories-social-mediaa.netlify.app",
     tag: "ALL,FULLSTACK",
-    github: "https://github.com/Preet1810/snapBuy"
+    github: "https://github.com/Preet1810/ModernSocialMediaApp"
+  },
 
-  },
-  {
-    loc: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1677645792/portfolio/Untitled_design_15_hcwum8.png",
-    alt: 'yelpcamp',
-    href: "http://yelpcamppp.cyclic.app/",
-    tag: "ALL,FULLSTACK",
-    github: "https://github.com/Preet1810/yelpCamp"
-  },
+  // {
+  //   loc: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1677644536/portfolio/hoobank_jtiljd.png",
+  //   alt: 'hoobank',
+  //   href: "https://devhoobank.netlify.app/",
+  //   tag: "ALL,FRONTEND",
+  //   github: "https://github.com/Preet1810/bank_reactApp"
+
+  // },
+  // {
+  //   loc: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1677644539/portfolio/gericht_cn1oeu.png",
+  //   alt: 'restaurent',
+  //   href: "https://restaurantgericht1.netlify.app/",
+  //   tag: "ALL,FRONTEND",
+  //   github: "https://github.com/Preet1810/restaurant_react"
+
+  // },
+  // {
+  //   loc: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1677644539/portfolio/gpt3_j5vdgf.png",
+  //   alt: 'blog site',
+  //   href: "https://gpt3blog.netlify.app/",
+  //   tag: "ALL,FRONTEND",
+  //   github: "https://github.com/Preet1810/gpt_3"
+
+  // },
+  // {
+  //   loc: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1677645648/portfolio/Untitled_design_14_lpf3vz.png",
+  //   alt: 'b2b site',
+  //   href: "https://snapbuy.cyclic.app/",
+  //   tag: "ALL,FULLSTACK",
+  //   github: "https://github.com/Preet1810/snapBuy"
+
+  // },
+  // {
+  //   loc: "https://res.cloudinary.com/dwh4llt0c/image/upload/v1677645792/portfolio/Untitled_design_15_hcwum8.png",
+  //   alt: 'yelpcamp',
+  //   href: "http://yelpcamppp.cyclic.app/",
+  //   tag: "ALL,FULLSTACK",
+  //   github: "https://github.com/Preet1810/yelpCamp"
+  // },
 
 ]

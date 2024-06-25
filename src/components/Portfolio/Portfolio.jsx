@@ -55,14 +55,14 @@ const Portfolio=() => {
               <a href={src.href} key={src.alt} target="_blank">
                 <motion.img variants={fadeIn("up", "tween", (index/10)+.5, .6)} src={src.loc} alt={src.alt} />
               </a>
-              <motion.div variants={fadeIn("up", "tween", (index/10)+.5, .6)} className={css.overlay}>
+              {/* <motion.div variants={fadeIn("up", "tween", (index/10)+.5, .6)} className={css.overlay}>
                 <a href={src.github} target="_blank" rel="noopener noreferrer">
                   <BsGithub />
                 </a>
                 <a href={src.href} target="_blank" rel="noopener noreferrer">
                   <BiLinkExternal />
                 </a>
-              </motion.div>
+              </motion.div> */}
             </div>
           ))}
         </div>
