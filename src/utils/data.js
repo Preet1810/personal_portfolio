@@ -3,6 +3,7 @@ import { CiMobile1 } from "react-icons/ci";
 import { SiSpeedtest } from 'react-icons/si';
 import edzer from "../assets/edzer.png"
 import aqua from "../assets/aqua.png"
+import home from "../assets/home.png"
 
 
 
@@ -173,6 +174,12 @@ export const imageSources=[
   //   tag: "ALL,FULLSTACK",
   //   github: "https://github.com/Preet1810/PreetpalSingh-ID-OCR-SCRIPT"
   // },
+  {
+    loc: home,
+    alt: 'Home.llc',
+    href: "https://www.hoom.llc/home-ai",
+    tag: "ALL,FULLSTACK",
+  },
   {
     loc: aqua,
     alt: 'Aqua Globals Systems',
